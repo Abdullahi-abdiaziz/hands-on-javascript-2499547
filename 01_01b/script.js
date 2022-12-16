@@ -10,7 +10,7 @@ import data from "./data.js";
 const mainContent = document.querySelector(".main-content");
 
 const Card = (data) => {
-  const imgData = data[0];
+  const imgData = data[2];
 
   const markup = `
     <figure class="image">
